@@ -511,7 +511,7 @@ section,
 
 
 
-.btn {
+.btn,input>.btn {
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -908,4 +908,8 @@ label {
 .rev{
   max-width: 1150px;
   margin-inline:auto ;
+}
+
+form, .about-img{
+  margin-block: 30px;
 }
