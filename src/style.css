@@ -905,3 +905,7 @@ label {
   }
 }
 
+.rev{
+  max-width: 1150px;
+  margin-inline:auto ;
+}
