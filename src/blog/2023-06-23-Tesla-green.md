@@ -2,7 +2,7 @@
 title: Steering Towards a Greener Future Tesla's Pioneering Role in Electric Mobility
 
 author: Amure Tobi
-date: 2021-05-01
+date: 2023-06-23
 tags: ["post", "featured"]
 image: /assets/blog/tesla_11zon.webp
 imageAlt: Tesla image
