@@ -1,0 +1,231 @@
+---
+title: My Home page
+layout: 'base.njk'
+---
+  
+   
+    
+      
+<section class="hero">
+  <div>
+      <h1 class='head'>RESULTS-DRIVEN
+          TECH COPYWRITER
+          AND JOURNALIST</h1>
+  </div>
+  <div class="flex-groups">
+      <div class="btn-holder">
+          <a class="btn btn--primary" href="/about">More about Us</a>
+      </div>
+      
+          <p>I have always been an ardent fan of Technology, and I constantly look for new ways to improve myself. This is why I continuously attend meetups, take certification courses and conduct extensive research on blockchain technology....</p>
+     
+  </div>
+</section>
+
+<section>
+  <div class="flex-groups bot">
+      <h2>OUR PAST<br>
+          PROJECTS</h2>
+      <p class="plus">100 PLUS PROJECTS</p>
+  </div>
+  <div class="flex-groups lines">
+    <div class="lin nog">
+     <a class="btn btn--primary" href="/portfolio">All Projects</a>
+    </div>
+    <div class="infos">
+          
+          
+       
+         <div class="line">
+           <h3>NEWS</h3>
+           <a href="https://www.investopedia.com/us-blacklists-tornado-cash-6385781"><p>Tornado Cash Joins the Club of Blacklisted Companies in the U.S.</p></a>
+         </div>
+         <div class="line"><img src="./assets/blog/port-1.jpeg"/></div>
+       
+       
+         <div><img src="./assets/blog/ethe.jpeg" class="line"/></div>
+         <div class="line">
+           
+           <a href="https://www.investopedia.com/us-blacklists-tornado-cash-6385781"><p>Ethereum 2.0 is On Horizon After Passing Another Test</p></a>
+         </div>
+        
+  
+       
+         <div class="line">
+           <h3>IGAMING</h3>
+           <a href="https://dappgambl.com/casinos/shadowbit-casino-review/"><p>Shadowbit Casino Review</p></a>
+         </div>
+         <div class="line"><img src="./assets/blog/igame.jpg"/></div>
+
+         <div><img src="./assets/blog/igame.jpg" class="line"/></div>
+         <div class="line">
+           
+           <a href="https://dappgambl.com/casinos/pledoo-review/"><p>Pledoo Casino Review</p></a>
+         </div>
+        
+      
+    </div>
+    
+  </div>
+</section>
+<section>
+   <div>
+   </div>
+</section>
+<section id="featured-articles" class="featured-articles">
+  <div class="container flow">
+    <h2 class="section-title text-center ">Featured articles</h2>
+    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+    <ul role="list" class="articles__list flow">
+      {%- for post in collections.featured | reverse -%}
+         {% include 'article-snippet.njk' %}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section> 
+<section>
+    <h2>WE ARE
+       WORTHY
+    </h2>
+    <div class="flex-groups">
+       <div class="nog">
+           <a class="btn btn--primary">Hire Me</a>
+       </div>
+       <div class="info">
+         <div class="">
+           <p>Satisfied Clients</p>
+           <h3>100%</h3>
+         </div>
+         <div class="">
+           <p>Projets Done</p>
+           <h3>250+</h3>
+         </div>
+          <div class="">
+           <p>Years of experience</p>
+           <h3>Five</h3>
+         </div>
+          <div class="">
+           <h4>I work for money, I write for love</h4>
+         </div>
+         <div class="">
+           <p>Top Rated</p>
+           <div class='im'>
+               <img src="./assets/blog/upwork.png"/>
+               <img src="./assets/blog/lin.png"/>
+               <img src="./assets/blog/muck.jpg"/>
+           </div>
+         </div>
+         
+       </div>
+    </div>
+</section>
+<section>
+     <div class="logos">
+      <div class="logos-slide">
+        <img src="../assets/blog/bossup.jpg" />
+        <img src="../assets/blog/coin.png" />
+        <img src="../assets/blog/crupt.jpg" />
+        <img src="../assets/blog/inves.jpg" />
+        <img src="../assets/blog/NANFT.jpg" />
+        <img src="../assets/blog/share.jpg" />
+      </div>
+
+      <div class="logos-slide">
+        <img src="../assets/blog/bossup.jpg" />
+        <img src="../assets/blog/coin.png" />
+        <img src="../assets/blog/crupt.jpg" />
+        <img src="../assets/blog/inves.jpg" />
+        <img src="../assets/blog/NANFT.jpg" />
+        <img src="../assets/blog/share.jpg" />
+      </div>
+    </div>
+</section>
+<section>
+    <div class="flex-groups bot">
+      <h2>OUR<br>
+          CLIENTS</h2>
+      <p class="plus">Don't take our word for it
+Trust our clients</p>
+  </div>
+  <div class="flex-groups">
+       <div class="nog">
+           <a class="btn btn--primary">Hire Me</a>
+       </div>
+       <div class="wip">
+        
+         <div>
+           <blockquote>
+               "Tobi is the finest and friendliest Manager I've ever worked under in all my professional life. His guidance at Watcher Guru was par excellence as he guided me to write and curate content which readers usually like to consume. His Editing and SEO skills helped my articles reach a wider audience and I credit my work to him. His knowledge in the cryptocurrency industry is vast and he knows the pulse of the readers along with in-depth knowledge of Google algorithms."
+           </blockquote>
+           <div class="flex-group">
+             <img src=" ./assets/blog/vinod.jpeg" alt="Vinod" class="vin">
+             <div class>
+                <h4>
+                   Vinod Dsouza  
+                </h4>
+                <p>
+                   Journalist at Watcher Guru
+                </p>
+             </div>
+           </div>
+         </div>
+
+          <div>
+           <blockquote>
+               " Tobi is an absolute genius when it comes to writing Crypto articles. He gives stellar takes on current Crypto trends. I recommend him."
+           </blockquote>
+           <div class="flex-group">
+             <img src=" ./assets/blog/olamide.jpeg" alt="Vinod" class="vin">
+             <div class>
+                <h4>
+                   Olamide Towobola
+                </h4>
+                <p>
+                   Founder and CEO Gigsnet 
+                </p>
+             </div>
+           </div>
+         </div>
+
+          <div>
+           <blockquote>
+               "Amure Tobi's dexterity as an SEO Specialist cannot be matched. He increased the page views on my Blog astronomically and made my contents rank."
+           </blockquote>
+           <div class="flex-group">
+             <img src=" ./assets/blog/moyin.jpeg" alt="Vinod" class="vin">
+             <div class>
+                <h4>
+                   Moyinoluwa Olufisayo
+
+                </h4>
+                <p>
+                   UX Designer Bookings.com 
+                </p>
+             </div>
+           </div>
+         </div>
+
+          <div>
+           <blockquote>
+               "Tobi is an excellent Crypto Writer and consummate professional. He follows the Crypto space so keenly. I'm in awe of how he always delivers unique content. Recommend 100%"
+           </blockquote>
+           <div class="flex-group">
+             <img src=" ./assets/blog/sanya.jpeg" alt="Vinod" class="vin">
+             <div class>
+                <h4>
+                   Olusanya Akanmu 
+                </h4>
+                <p>
+                   
+                   Crypto Technical Writer Swapzone
+
+                </p>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+</section>
+    
+    
+ 
