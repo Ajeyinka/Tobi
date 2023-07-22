@@ -4,8 +4,8 @@ author: Amure Tobi
 date: 2023-06-17
 tags: ["post", "featured"]
 image: /assets/blog/android.jpg
-imageAlt: This is a test
-category: Crypto
+imageAlt: Android img
+category: Technology
 description: Launched in 2007, Android came into the tech scene not as a whimper but as a bang. Backed by a consortium of tech-savvy companies called the Open Handset Alliance with Google leading the charge, the goal of Android was to transform the way we interact with mobile devices. 
 ---
 
