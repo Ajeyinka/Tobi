@@ -1,44 +1,33 @@
-
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navLinks = document.getElementsByClassName('navbar-links')[0]
-
-toggleButton.addEventListener('click',() =>{
-    navLinks.classList.toggle('active')
-});
-
-
+        const navLinks = document.getElementsByClassName('navbar-links')[0]
+        
+        toggleButton.addEventListener('click',() =>{
+            navLinks.classList.toggle('active')
+        });
 
 
-const accordion = document.querySelector(".accordion");
-
-accordion.addEventListener("click", (e) => {
-  const activePanel = e.target.closest(".accordion-panel");
-  if (!activePanel) return;
-  toggleAccordion(activePanel);
-
-});
-
-function toggleAccordion(panelToActivate) {
-  const activeButton = panelToActivate.querySelector("button");
-  const activePanel = panelToActivate.querySelector(".accordion-content");
-  const activePanelIsOpened = activeButton.getAttribute("aria-expanded");
-
-  if (activePanelIsOpened === "true") {
-    panelToActivate
-      .querySelector("button")
-      .setAttribute("aria-expanded", false);
-
-    panelToActivate
-      .querySelector(".accordion-content")
-      .setAttribute("aria-hidden", true);
-  } else {
-    panelToActivate.querySelector("button").setAttribute("aria-expanded", true);
-
-    panelToActivate
-      .querySelector(".accordion-content")
-      .setAttribute("aria-hidden", false);
-  }
-}
-
-
-
+        document.addEventListener("DOMContentLoaded", function () {
+            const slides = document.querySelectorAll(".testimonial-slide");
+            let currentSlide = 0;
+        
+            function showSlide(slideIndex) {
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.style.display = "block";
+                    } else {
+                        slide.style.display = "none";
+                    }
+                });
+            }
+        
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+        
+            // Auto-play the slider
+            setInterval(nextSlide, 5000); // Change slide every 5 seconds
+        
+            // Initial display
+            showSlide(currentSlide);
+        });

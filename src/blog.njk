@@ -3,15 +3,105 @@ title: Blog
 layout: 'base.njk'
 ---
   
-       
-<div class="section container">
-<h1 class="section-title blogs">Recent articles</h1>
-<ul role="list" class="articles__list flow">
-  {%- for post in collections.post | reverse -%}
-    {% include 'article-snippet.njk' %}
-  {%- endfor -%}
+
+
+  <div class="padding-global">
+    <div class="max-width">
+       <h1 class="section-title blogs">Recent articles</h1>
+          <ul role="list" class="articles__list flow">
+            {%- for post in collections.post | reverse -%}
+              {% include 'article-snippet.njk' %}
+            {%- endfor -%}
   
-</ul>
-</div>
+          </ul>
+       
+    
+        <section>
+                        <div class="padding-global">
+                           <div class="max-width">
+                            <div class="hero-component flex">
+                                <div class="flex-text">
+                                    <div class="tag"><p>My workflow
+                                    </p><div class="line-small"></div></div>
+                                    <h2>
+                                        <span class="text-span">
+                                            Steps to Outranking Others
+                                        </span> 
+                                    </h2>
+                                    <p>
+                                        A clear working process is a prerequisite for success. Here’s a quick overview of how I start and complete a writing project.
+                                    </p>
+                                    <div class="call-box">
+                                        <h2>Prefer written communication? </h2>
+                                        <p>you can either complete the attached form or reach out directly at tobiwrites26@gmail.com. Expect a reply within 24 hours.
+
+                                        </p>
+                                        <button><a href="mailto:tobiwrites26@gmail.com? subject=Hello" target="_top">LET'S TALK</a></button>
+                                        <p>All queries are replied within 24hrs.</p>
+                                    </div>
+                                </div>
+                                <div class="flex-text border">
+                                    <div class="services flexed">
+                                        <h2>1</h2>
+                                        <div>
+                                            <h4>
+                                                Inroduction
+                                            </h4>
+                                            <p>
+                                                We'll start with a conversation to understand your needs.
+    
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="services flexed">
+                                        <h2>2</h2> 
+                                        <div>
+                                            <h4>
+                                                Preparation 
+                                            </h4>
+                                            <p>
+                                                You'll receive a detailed questionnaire for insights.
     
     
+                                            </p>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="services flexed"> 
+                                        <h2>3</h2> 
+                                        <div>
+                                            <h4>
+                                                Creation 
+                                            </h4>
+                                            <p>
+                                                I draft content that aligns with your objectives.
+    
+                                            </p>
+                                        </div>  
+                                        
+                                    </div>
+                                    <div class="services flexed"> 
+                                        <h2>4</h2>
+                                        <div>
+                                            <h4>
+                                                Finalization
+                                            </h4>
+                                            <p>
+                                                I'll refine the content based on your feedback.
+    
+    
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </section>
+
+    </div>
+  </div>
+
+       
