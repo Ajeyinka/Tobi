@@ -996,3 +996,9 @@ color: var(--clr-primary-500);
     fill: #986446;
   }
 }
+
+.logos{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
