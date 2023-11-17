@@ -11,17 +11,6 @@ const toggleButton = document.getElementsByClassName('toggle-button')[0]
             barThree.classList.toggle('active')
         });
 
-const activePage = window.location.pathname;
-const activeNav = document.querySelectorAll('.ava').
-forEach(link => {
-    if(link.href.includes(`${activePage}`)){
-      link.classList.add('navactive');
-      const divs = document.createElement("div");
-      divs.id = "divs";
-      document.links.appendChild(divs);
-      console.log(link);
-    }
-  })
 
         document.addEventListener("DOMContentLoaded", function () {
             const slides = document.querySelectorAll(".testimonial-slide");
